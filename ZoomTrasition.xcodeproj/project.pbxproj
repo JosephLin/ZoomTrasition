@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5C9E1E17748B3700CC2148 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD96812177489A0005E4B87 /* ParentViewController.m */; };
+		7C5C9E1F17748B3700CC2148 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD96814177489AA005E4B87 /* ChildViewController.m */; };
+		7C5C9E2017748B3900CC2148 /* ThumbCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD96816177489D1005E4B87 /* ThumbCell.m */; };
+		7C5C9E2617748F2200CC2148 /* ZoomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5C9E2517748EF200CC2148 /* ZoomSegue.m */; };
 		7CD967DC177488A4005E4B87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD967DB177488A4005E4B87 /* Foundation.framework */; };
 		7CD967DE177488A4005E4B87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD967DD177488A4005E4B87 /* CoreGraphics.framework */; };
 		7CD967E0177488A4005E4B87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD967DF177488A4005E4B87 /* UIKit.framework */; };
@@ -14,7 +18,6 @@
 		7CD967E8177488A4005E4B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD967E7177488A4005E4B87 /* main.m */; };
 		7CD967EC177488A4005E4B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD967EB177488A4005E4B87 /* AppDelegate.m */; };
 		7CD967EF177488A4005E4B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD967ED177488A4005E4B87 /* Main.storyboard */; };
-		7CD967F2177488A4005E4B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD967F1177488A4005E4B87 /* ViewController.m */; };
 		7CD967F4177488A4005E4B87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD967F3177488A4005E4B87 /* Images.xcassets */; };
 		7CD967FB177488A4005E4B87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD967FA177488A4005E4B87 /* XCTest.framework */; };
 		7CD967FC177488A4005E4B87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD967DB177488A4005E4B87 /* Foundation.framework */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C5C9E2417748EF200CC2148 /* ZoomSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomSegue.h; sourceTree = "<group>"; };
+		7C5C9E2517748EF200CC2148 /* ZoomSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomSegue.m; sourceTree = "<group>"; };
 		7CD967D8177488A4005E4B87 /* ZoomTrasition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomTrasition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD967DB177488A4005E4B87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CD967DD177488A4005E4B87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +50,18 @@
 		7CD967EA177488A4005E4B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CD967EB177488A4005E4B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7CD967EE177488A4005E4B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CD967F0177488A4005E4B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CD967F1177488A4005E4B87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CD967F3177488A4005E4B87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CD967F9177488A4005E4B87 /* ZoomTrasitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomTrasitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD967FA177488A4005E4B87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7CD96802177488A4005E4B87 /* ZoomTrasitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZoomTrasitionTests-Info.plist"; sourceTree = "<group>"; };
 		7CD96804177488A4005E4B87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CD96806177488A4005E4B87 /* ZoomTrasitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomTrasitionTests.m; sourceTree = "<group>"; };
+		7CD96811177489A0005E4B87 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		7CD96812177489A0005E4B87 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		7CD96813177489AA005E4B87 /* ChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		7CD96814177489AA005E4B87 /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		7CD96815177489D1005E4B87 /* ThumbCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbCell.h; sourceTree = "<group>"; };
+		7CD96816177489D1005E4B87 /* ThumbCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				7CD967EA177488A4005E4B87 /* AppDelegate.h */,
 				7CD967EB177488A4005E4B87 /* AppDelegate.m */,
 				7CD967ED177488A4005E4B87 /* Main.storyboard */,
-				7CD967F0177488A4005E4B87 /* ViewController.h */,
-				7CD967F1177488A4005E4B87 /* ViewController.m */,
+				7CD96811177489A0005E4B87 /* ParentViewController.h */,
+				7CD96812177489A0005E4B87 /* ParentViewController.m */,
+				7CD96813177489AA005E4B87 /* ChildViewController.h */,
+				7CD96814177489AA005E4B87 /* ChildViewController.m */,
+				7CD96815177489D1005E4B87 /* ThumbCell.h */,
+				7CD96816177489D1005E4B87 /* ThumbCell.m */,
+				7C5C9E2417748EF200CC2148 /* ZoomSegue.h */,
+				7C5C9E2517748EF200CC2148 /* ZoomSegue.m */,
 				7CD967F3177488A4005E4B87 /* Images.xcassets */,
 				7CD967E2177488A4005E4B87 /* Supporting Files */,
 			);
@@ -249,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CD967F2177488A4005E4B87 /* ViewController.m in Sources */,
 				7CD967EC177488A4005E4B87 /* AppDelegate.m in Sources */,
 				7CD967E8177488A4005E4B87 /* main.m in Sources */,
+				7C5C9E1E17748B3700CC2148 /* ParentViewController.m in Sources */,
+				7C5C9E2017748B3900CC2148 /* ThumbCell.m in Sources */,
+				7C5C9E2617748F2200CC2148 /* ZoomSegue.m in Sources */,
+				7C5C9E1F17748B3700CC2148 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +472,7 @@
 				7CD9680C177488A4005E4B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CD9680D177488A4005E4B87 /* Build configuration list for PBXNativeTarget "ZoomTrasitionTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +481,7 @@
 				7CD9680F177488A4005E4B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

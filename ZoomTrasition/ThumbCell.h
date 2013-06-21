@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThumbCell.h
 //  ZoomTrasition
 //
 //  Created by Joseph Lin on 6/21/13.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ThumbCell : UICollectionViewCell
+
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
 @end

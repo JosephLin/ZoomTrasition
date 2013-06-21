@@ -8,6 +8,7 @@
 
 #import "ParentViewController.h"
 #import "ThumbCell.h"
+#import "ZoomSegue.h"
 
 
 @interface ParentViewController ()
@@ -23,7 +24,7 @@
 
 - (IBAction)unwind:(UIStoryboardSegue *)segue
 {
-    
+    [ZoomSegue unwind:segue];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(ThumbCell *)sender

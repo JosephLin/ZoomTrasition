@@ -11,4 +11,6 @@
 
 @interface ZoomSegue : UIStoryboardSegue
 
++ (void)unwind:(UIStoryboardSegue *)segue;
+
 @end
